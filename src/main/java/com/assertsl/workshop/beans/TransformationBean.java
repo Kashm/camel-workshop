@@ -28,7 +28,7 @@ public class TransformationBean {
         //TODO: set parameters from dto and update the entity
         updateParameters.put("price", drugDto.getPrice());
         updateParameters.put("existences", drugDto.getExistences());
-        updateParameters.put("productNdc", drugDto.getProductNdc())
+        updateParameters.put("productNdc", drugDto.getProductNdc());
         return updateParameters;
     }
 
