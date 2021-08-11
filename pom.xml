@@ -124,6 +124,26 @@
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
 
+               <!--  mariadb -->
+	<dependency>
+	    <groupId>org.mariadb.jdbc</groupId>
+	    <artifactId>mariadb-java-client</artifactId>
+	    <version>2.1.2</version>
+	</dependency>
+
+	 <!--   MYSQL -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+	
+	<!--   Hibernate -->
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>5.5.6</version>
+    </dependency>
 
 
     <!-- Test -->
