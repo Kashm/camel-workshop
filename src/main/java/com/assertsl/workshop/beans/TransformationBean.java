@@ -28,9 +28,10 @@ public class TransformationBean {
         Map<String, Object> updateParameters = new HashMap<String, Object>();
         
         //TODO: (OK) set parameters from dto and update the entity
+        String ndc = drugDto.getProductNdc();
         BigDecimal price = drugDto.getPrice();
         int existences = drugDto.getExistences();
-        String ndc = drugDto.getProductNdc();
+        
         updateParameters.put("productNdc", ndc);
         updateParameters.put("price", price);
         updateParameters.put("existences", existences);        
